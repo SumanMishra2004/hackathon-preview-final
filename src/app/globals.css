@@ -2,7 +2,9 @@
   @tailwind components;
   @tailwind utilities;
 
-  .NoSidebar::-webkit-scrollbar{
-    width: 0;
-    display: none;
-  }
+  
+  
+html.nosidebar::-webkit-scrollbar{
+  width: 0;
+  display: none;
+}
